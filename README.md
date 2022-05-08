@@ -3,8 +3,9 @@
 The first RT2 assignment consists in replicating the functionalities of the thirs RT1 assignment (https://github.com/LaRambla20/Repo06_RT1-assignment3.git), by implementing the graphical user interface and some visualization features in a jupyter notebook.  
 As far as the visualization task is concerned, the robot's position, the laser scanner's output and the number of reached and non-reached goal should be represented.
 ## Organization
-In order to accomplish the above mentioned task, a ROS package and a notebook have been implemented. The first one contains the simulation launch file and two nodes that realize the three modalities for controlling the simulated robot. The notebook instead implements an upgraded GUI and allows the user to visualize some useful pieces of information about the robot's state.  
-The ROS package is contained in the github repository named Repo08_RT2-assignment1_ROSpkg, whereas the notebook can be found here.
+In order to accomplish the above mentioned task, a ROS package and a notebook have been implemented.  
+The first one contains the simulation launch file and two nodes that realize the three modalities for controlling the simulated robot. The notebook instead implements an upgraded GUI and allows the user to visualize some useful pieces of information about the robot's state.  
+The ROS package is contained in the github repository named `Repo08_RT2-assignment1_ROSpkg`, whereas the notebook can be found here.
 ## How to run
 Before running the notebook it is necessary to have both the simulation and the two external nodes up and running. To this end, follow the steps hereafter mentioned:
 * open a terminal window and navigate to the `src` folder of your ROS workspace
